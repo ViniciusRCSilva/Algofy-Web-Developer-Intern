@@ -1,0 +1,28 @@
+{
+    "projects": [
+      {
+        "name": "Bliss",
+        "description": "Bliss is a web application that aims to help with mental health and well-being.",
+        "image": "images/bliss.png",
+        "link": "https://github.com/ViniciusRCSilva/Bliss"
+      },
+      {
+        "name": "Animeflix",
+        "description": "Animeflix is ​​a study web application that aims to make a replica of the Netflix page.",
+        "image": "images/animeflix.png",
+        "link": "https://github.com/ViniciusRCSilva/animeflixV2"
+      },
+      {
+        "name": "MangaShop",
+        "description": "MangaShop is an web application for an e-commerce website.",
+        "image": "images/mangashop.png",
+        "link": "https://github.com/ViniciusRCSilva/MangaShop"
+      },
+      {
+        "name": "DinDin",
+        "description": "Dindin is a web application that aims to register courses on financial education.",
+        "image": "images/dindin.png",
+        "link": "https://github.com/ViniciusRCSilva/DindinWeb"
+      }
+    ]
+  }

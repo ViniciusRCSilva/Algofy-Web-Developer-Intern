@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style/style.css">
+    <link rel="stylesheet" href="style/topbar.css">
+    <link rel="stylesheet" href="style/hero.css">
+    <link rel="stylesheet" href="style/about.css">
+    <link rel="stylesheet" href="style/contact.css">
+    <link rel="stylesheet" href="style/footer.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500&display=swap" rel="stylesheet">
+    <title>Algofy - Web Developer Intern</title>
+</head>
+<body>
+    <div class="topbar" id="topbar">
+        <p class="logo">VRCS</p>
+        
+        <div class="menu">
+            <a href="#hero">Home</a>
+            <a href="#about">About</a>
+            <a href="#contact">Contact</a>
+        </div>
+    </div>
+    
+    <div class="hero" id="hero">
+        <div class="bgText">
+            <h1>Vinicius Rodrigues</h1>
+            <p>Full-Stack Developer.</p>
+        </div>
+    </div>
+    
+    <div class="about" id="about">
+        <button class="aboutBtn" id="aboutBtn">
+            <h2>About</h2>
+            <p class="arrow" id="arrow">▼</p>
+        </button>
+        
+        <div class="content none" id="content">
+            <img src="images/myImage.png" alt="My Image" class="myImage">
+
+            <p> 
+                I am 21 years old and currently studying Computer Science.
+                <br/>
+                My studies are focused on acquiring knowledge in application 
+                development using frameworks like NextJS and ReactJS. 
+                <br/>
+                Before starting any project, I always like to create prototypes in Figma.
+            </p>
+            
+            <h3>Skills</h3>
+            
+            <div class="skills">
+                <img class="techIcon" alt="GIT" height="30" width="40" src="https://raw.githubusercontent.com/devicons/devicon/master/icons/git/git-original.svg">
+                <img class="techIcon" alt="HTML" height="30" width="40" src="https://raw.githubusercontent.com/devicons/devicon/master/icons/html5/html5-original.svg">
+                <img class="techIcon" alt="CSS" height="30" width="40" src="https://raw.githubusercontent.com/devicons/devicon/master/icons/css3/css3-original.svg">  
+                <img class="techIcon" alt="NEXT" height="30" width="40" src="https://raw.githubusercontent.com/devicons/devicon/master/icons/nextjs/nextjs-original.svg">
+                <img class="techIcon" alt="REACT" height="30" width="40" src="https://raw.githubusercontent.com/devicons/devicon/master/icons/react/react-original.svg">
+                <img class="techIcon" alt="JS" height="30" width="40" src="https://raw.githubusercontent.com/devicons/devicon/master/icons/javascript/javascript-plain.svg"> 
+                <img class="techIcon" alt="TS" height="30" width="40" src="https://raw.githubusercontent.com/devicons/devicon/master/icons/typescript/typescript-original.svg">
+                <img class="techIcon" alt="TCSS" height="30" width="30" src="https://upload.wikimedia.org/wikipedia/commons/d/d5/Tailwind_CSS_Logo.svg">
+                <img class="techIcon" alt="NODE" height="30" width="40" src="https://raw.githubusercontent.com/devicons/devicon/master/icons/nodejs/nodejs-original.svg">
+                <img class="techIcon" alt="C" height="30" width="40" src="https://raw.githubusercontent.com/devicons/devicon/master/icons/c/c-original.svg"> 
+                <img class="techIcon" alt="C++" height="30" width="40" src="https://icongr.am/devicon/cplusplus-original.svg"> 
+                <img class="techIcon" alt="MYSQL" height="30" width="40" src="https://raw.githubusercontent.com/devicons/devicon/master/icons/mysql/mysql-original.svg"> 
+                <img class="techIcon" alt="PHP" height="30" width="40" src="https://raw.githubusercontent.com/devicons/devicon/master/icons/php/php-original.svg">
+                <img class="techIcon" alt="JAVA" height="30" width="40" src="https://raw.githubusercontent.com/devicons/devicon/master/icons/java/java-original.svg">
+                <img class="techIcon" alt="PYTHON" height="30" width="40" src="https://raw.githubusercontent.com/devicons/devicon/master/icons/python/python-original.svg">
+            </div>
+            
+            <h2>Projects</h2>
+
+            <div class="projects" id="projects"></div>
+        </div>
+    </div>
+    
+    <div class="contact" id="contact">
+        <img src="images/envelop.svg" alt="Envelop Image">
+
+        <div class="contactForm">
+            <h2>Contact Me</h2>
+            
+            <form action="#">
+                <label for="name">Name:</label>
+                <input type="text" id="name" name="name" placeholder="Ex: John Doe" required>
+                
+                <label for="email">Email:</label>
+                <input type="text" id="email" name="email" placeholder="Ex: johndoe@email.com" required>
+                
+                <label for="message">Message:</label>
+                <textarea id="message" name="message" rows="4" placeholder="Ex: I would like to contact you..." required></textarea>
+                
+                <input type="submit" value="Submit">
+            </form>
+        </div>
+    </div>
+
+    <div class="footer">
+        <p>Made by Vinicius</p>
+    </div>
+    
+    <script src="script.js"></script>
+</body>
+</html>

@@ -1,0 +1,144 @@
+.about {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 40px 0 40px 0;
+}
+
+.aboutBtn {
+    display: flex; 
+    align-items: center; 
+    justify-content: center;
+    padding: 5px;
+    margin-bottom: 10px;
+    width: 150px;
+    gap: 1em; 
+    border: 0;
+    border-radius: 100px; 
+    background-color: #000000; 
+    color: #fff;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    user-select: none;
+}
+
+.aboutBtn:hover {
+    background-color: #333;
+}
+
+.content.none {
+    display: none;
+}
+
+.content.active {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+
+.content .myImage {
+    border-radius: 100%;
+    width: 300px;
+    border: 1px solid #000000;
+}
+
+.content p {
+    animation: fadeInUp 1s forwards;
+    opacity: 0;
+}
+
+.content h3 {
+    animation: fadeInUp 1s forwards;
+    animation-delay: 150ms;
+    opacity: 0;
+}
+
+.content .techIcon {
+    animation: fadeInUp 1s forwards;
+    animation-delay: 250ms;
+    opacity: 0;
+}
+
+.content h2 {
+    animation: fadeInUp 1s forwards;
+    animation-delay: 350ms;
+    opacity: 0;
+}
+
+.content img {
+    animation: fadeInUp 1s forwards;
+    animation-delay: 450ms;
+    opacity: 0;
+}
+
+.projects {
+    display: flex;
+    flex-direction: row;
+}
+
+.project {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.project p {
+    width: 80%;
+}
+
+.project .projectImage {
+    width: 80%; 
+    border-radius: 10px; 
+    border: 2px solid #333;
+}
+
+.linkToProject {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 0.5em;
+    animation: fadeInUp 1s forwards;
+    animation-delay: 550ms;
+    opacity: 0;
+}
+
+.arrow {
+    transition: rotate 0.3s ease;
+}
+
+.arrow.active {
+    rotate: 180deg;
+}
+
+@media (max-width: 768px) {  
+    .about {
+        padding-bottom: 0;
+    }
+    
+    .content .myImage {
+        width: 200px;
+    }
+    
+    .content p {
+        width: 80%;
+    }
+    
+    .skills {
+        width: 80%;
+    }
+
+    .projects {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .project {
+        padding: 20px 0 20px 0;
+        border-radius: 10px;
+        box-shadow: 0 25px 18px #8888881d;
+    }
+}
