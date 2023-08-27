@@ -26,10 +26,10 @@ Download the .zip file or clone the repository on your computer.
 https://github.com/ViniciusRCSilva/Algofy-Web-Developer-Intern.git
 ```
 <br/>
-Then, drag and drop the HTML file into your browser.
+Then, drag and drop the HTML file into your browser or deploy in a web server.
 <br/>
 <br/>
 
-### You can open the finished project by clicking on the link below :arrow_down_small:
+### You can visualize the finished project by clicking on the link below :arrow_down_small:
 
 <a href="https://algofy-web-developer-intern.vercel.app/" target="_blank">Algofy Web Developer Intern</a>
