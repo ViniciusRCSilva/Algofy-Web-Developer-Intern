@@ -1,3 +1,5 @@
+/* Set the entire style of About Section */
+
 .about {
     display: flex;
     flex-direction: column;
@@ -6,6 +8,16 @@
     padding: 100px 0 100px 0;
     gap: 1em;
 }
+
+/* -------------------------------------------------- */
+
+.myImage {
+    width: 300px;
+    border-radius: 100%;
+    border: 1px solid #000000;
+}
+
+/* -------------------------------------------------- */
 
 .aboutBtn {
     display: flex; 
@@ -28,22 +40,30 @@
     background-color: #333;
 }
 
+/* -------------------------------------------------- */
+
+.arrow {
+    transition: rotate 0.3s ease;
+}
+
+.arrow.active {
+    rotate: 180deg;
+}
+
+/* -------------------------------------------------- */
+
+/* If content is minimized, display is none */
 .content.none {
     display: none;
 }
 
+/* If content is maximized, display is flex */
 .content.active {
     display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: center;
     text-align: center;
-}
-
-.myImage {
-    width: 300px;
-    border-radius: 100%;
-    border: 1px solid #000000;
 }
 
 .content p {
@@ -75,6 +95,8 @@
     opacity: 0;
 }
 
+/* -------------------------------------------------- */
+
 .projects {
     display: flex;
     flex-direction: row;
@@ -97,6 +119,8 @@
     border: 2px solid #333;
 }
 
+/* -------------------------------------------------- */
+
 .linkToProject {
     display: flex;
     flex-direction: row;
@@ -107,14 +131,9 @@
     opacity: 0;
 }
 
-.arrow {
-    transition: rotate 0.3s ease;
-}
+/* -------------------------------------------------- */
 
-.arrow.active {
-    rotate: 180deg;
-}
-
+/* Make the page responsive */
 @media (max-width: 768px) {  
     .about {
         padding-bottom: 0;

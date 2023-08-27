@@ -1,3 +1,6 @@
+/* Set the entire style of Topbar */
+
+/* Set the top bar as fixed to scroll the entire page */
 .topbar {
     position: fixed;
     top: 0;
@@ -33,6 +36,7 @@
     gap: 1em;
 }
 
+/* Define link style */
 .topbar .menu a {
     color: #fff;
     text-decoration: none;

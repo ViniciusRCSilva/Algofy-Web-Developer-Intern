@@ -1,3 +1,5 @@
+/* Set the entire style of Hero Section */
+
 .hero {
     color: #fff;
     background-color: #333;
@@ -11,6 +13,7 @@
 	position: relative; 
 }
 
+/* Define and animate the background */
 .hero::before, 
 .hero::after {
 	content: "";

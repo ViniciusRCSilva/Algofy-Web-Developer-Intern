@@ -7,6 +7,7 @@ window.addEventListener('scroll', () => {
     }
 });
 
+/* When the 'aboutBtn' element is clicked, it will change the class from 'none' to 'active', same way in reverse */
 document.getElementById('aboutBtn').addEventListener('click', () => {
     if(document.getElementById('content').classList.contains('none')) {
         document.getElementById('arrow').classList.add('active')
@@ -19,6 +20,7 @@ document.getElementById('aboutBtn').addEventListener('click', () => {
     }
 });
 
+/* JavaScript reads projects from JSON file and dynamically creates HTML elements to display each project's details on the page */
 fetch('projects.json')
     .then(response => response.json())
     .then(data => {

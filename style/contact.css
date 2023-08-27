@@ -1,3 +1,5 @@
+/* Set the entire style of Contact Section */
+
 .contact {
     display: flex;
     flex-direction: row;
@@ -48,6 +50,9 @@
     background-color: #333;
 }
 
+/* -------------------------------------------------- */
+
+/* Make the page responsive */
 @media (max-width: 768px) {
     .contact {
         display: flex;
