@@ -3,7 +3,8 @@
     flex-direction: column;
     align-items: center;
     justify-content: center;
-    padding: 40px 0 40px 0;
+    padding: 100px 0 100px 0;
+    gap: 1em;
 }
 
 .aboutBtn {
@@ -39,9 +40,9 @@
     text-align: center;
 }
 
-.content .myImage {
-    border-radius: 100%;
+.myImage {
     width: 300px;
+    border-radius: 100%;
     border: 1px solid #000000;
 }
 
@@ -119,7 +120,15 @@
         padding-bottom: 0;
     }
     
-    .content .myImage {
+    .aboutBtn {
+        margin-bottom: 100px;
+    }
+
+    .content.active {
+        margin-top: -100px;
+    }
+
+    .myImage {
         width: 200px;
     }
     
