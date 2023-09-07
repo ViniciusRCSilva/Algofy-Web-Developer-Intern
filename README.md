@@ -22,14 +22,28 @@ To develop this application, the following tech's were used:
 
 ## :thinking: How to use?
 
-Download the .zip file or clone the repository on your computer.
+Download the zip file or clone the repository on your computer.
 <br/>
+
 ```
 https://github.com/ViniciusRCSilva/Algofy-Web-Developer-Intern.git
 ```
 <br/>
-Then, drag and drop the HTML file into your browser or deploy in a web server.
+
+Open the folder and put the following line of code to install all dependencies: 
 <br/>
+
+```
+npm install
+```
+<br/>
+
+To start the local server: 
+<br/>
+
+```
+node server.js
+```
 <br/>
 
 ### You can visualize the finished project by clicking on the link below :arrow_down_small:
