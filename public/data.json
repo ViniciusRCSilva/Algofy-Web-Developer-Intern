@@ -1,0 +1,103 @@
+{
+    "personalInfo":
+      {
+        "page_title": "Algofy - Web Developer Intern",
+        "site_name": "VRCS",
+        "hero_title": "Vinicius Rodrigues",
+        "hero_description": "Full-Stack Developer.",
+        "image_url": "images/myImage.png",
+        "image_alt": "My Image",
+        "about_text": "I am 21 years old and currently studying Computer Science. My studies are focused on acquiring knowledge in application development using frameworks like NextJS and ReactJS. Before starting any project, I always like to create prototypes in Figma.",
+        "contact_image_url": "images/envelop.svg",
+        "contact_image_alt": "Envelop Image",
+        "author_name": "Vinicius"
+      },
+    "projects": [
+      {
+        "name": "Bliss",
+        "description": "Bliss is a web application that aims to help with mental health and well-being.",
+        "image": "images/bliss.png",
+        "link": "https://github.com/ViniciusRCSilva/Bliss"
+      },
+      {
+        "name": "Animeflix",
+        "description": "Animeflix is ​​a study web application that aims to make a replica of the Netflix page.",
+        "image": "images/animeflix.png",
+        "link": "https://github.com/ViniciusRCSilva/animeflixV2"
+      },
+      {
+        "name": "MangaShop",
+        "description": "MangaShop is an web application for an e-commerce website.",
+        "image": "images/mangashop.png",
+        "link": "https://github.com/ViniciusRCSilva/MangaShop"
+      },
+      {
+        "name": "DinDin",
+        "description": "Dindin is a web application that aims to register courses on financial education.",
+        "image": "images/dindin.png",
+        "link": "https://github.com/ViniciusRCSilva/DindinWeb"
+      }
+    ],
+    "skills": [
+      {
+        "alt": "git",
+        "image": "https://raw.githubusercontent.com/devicons/devicon/master/icons/git/git-original.svg"
+      },
+      {
+        "alt": "html",
+        "image": "https://raw.githubusercontent.com/devicons/devicon/master/icons/html5/html5-original.svg"
+      },
+      {
+        "alt": "css",
+        "image": "https://raw.githubusercontent.com/devicons/devicon/master/icons/css3/css3-original.svg"
+      },
+      {
+        "alt": "nextjs",
+        "image": "https://raw.githubusercontent.com/devicons/devicon/master/icons/nextjs/nextjs-original.svg"
+      },
+      {
+        "alt": "reactjs",
+        "image": "https://raw.githubusercontent.com/devicons/devicon/master/icons/react/react-original.svg"
+      },
+      {
+        "alt": "js",
+        "image": "https://raw.githubusercontent.com/devicons/devicon/master/icons/javascript/javascript-plain.svg"
+      },
+      {
+        "alt": "ts",
+        "image": "https://raw.githubusercontent.com/devicons/devicon/master/icons/typescript/typescript-original.svg"
+      },
+      {
+        "alt": "tailwindcss",
+        "image": "https://upload.wikimedia.org/wikipedia/commons/d/d5/Tailwind_CSS_Logo.svg"
+      },
+      {
+        "alt": "nodejs",
+        "image": "https://raw.githubusercontent.com/devicons/devicon/master/icons/nodejs/nodejs-original.svg"
+      },
+      {
+        "alt": "c",
+        "image": "https://raw.githubusercontent.com/devicons/devicon/master/icons/c/c-original.svg"
+      },
+      {
+        "alt": "c++",
+        "image": "https://icongr.am/devicon/cplusplus-original.svg"
+      },
+      {
+        "alt": "mysql",
+        "image": "https://raw.githubusercontent.com/devicons/devicon/master/icons/mysql/mysql-original.svg"
+      },
+      {
+        "alt": "php",
+        "image": "https://raw.githubusercontent.com/devicons/devicon/master/icons/php/php-original.svg"
+      },
+      {
+        "alt": "java",
+        "image": "https://raw.githubusercontent.com/devicons/devicon/master/icons/java/java-original.svg"
+      },
+      {
+        "alt": "python",
+        "image": "https://raw.githubusercontent.com/devicons/devicon/master/icons/python/python-original.svg"
+      }
+    ]
+  }
