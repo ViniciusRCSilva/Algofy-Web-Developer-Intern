@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!-- Import all styles -->
+    <link rel="stylesheet" href="style/style.css">
+    <link rel="stylesheet" href="style/topbar.css">
+    <link rel="stylesheet" href="style/hero.css">
+    <link rel="stylesheet" href="style/about.css">
+    <link rel="stylesheet" href="style/contact.css">
+    <link rel="stylesheet" href="style/footer.css"> 
+    
+    <!-- Import Monteserrat from Google Fonts -->
+    <!-- Imported with weights 400 and 500 --> <link rel="preconnect" href="https://fonts.googleapis.com"> <link
+      rel="preconnect"
+      href="https://fonts.gstatic.com"
+      crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500&display=swap" rel="stylesheet">
+
+    <title>{{ page_title }}</title>
+  </head>
+  <body>
+    <!-- Topbar -->
+    <div class="topbar" id="topbar">
+      <p class="logo">{{ site_name }}</p>
+
+      <div class="menu">
+        <a href="#hero">Home</a>
+        <a href="#about">About</a>
+        <a href="#contact">Contact</a>
+      </div>
+    </div>
+
+    <!-- Hero Section -->
+    <div class="hero" id="hero">
+      <div class="bgText">
+        <h1>{{ hero_title }}</h1>
+        <p>{{ hero_description }}</p>
+      </div>
+    </div>
+
+    <!-- About Section -->
+    <div class="about" id="about">
+      <img
+        src="{{ image_url }}"
+        alt="{{ image_alt }}"
+        class="myImage">
+
+      <button class="aboutBtn" id="aboutBtn">
+        <h2>About</h2>
+        <p class="arrow" id="arrow">▼</p>
+      </button>
+
+      <div class="content none" id="content">
+        <p>
+          {{ about_text }}
+        </p>
+
+        <h3>Skills</h3>
+
+        <div class="skills">
+          {% for skill in jsonDatabase.skills %}
+            <img
+              class="techIcon"
+              alt="{{ skill.alt }}"
+              height="30"
+              width="40"
+              src="{{ skill.image }}">
+          {% endfor %}
+        </div>
+
+        <h2>Projects</h2>
+
+        <!-- A Div Tag to show projects -->
+        <div class="projects" id="projects">
+          {% for project in jsonDatabase.projects %}
+            <div class="project">
+              <h3>{{ project.name }}</h3>
+              <img src="{{ project.image }}" alt="{{ project.name }}" class="projectImage" />
+              <p>{{ project.description }}</p>
+              <div class="linkToProject">                
+                  <img src="images/github-icon.png" alt="GitHub Logo" style="width: 20px;" />
+                  <a href="{{ project.link }}" target="_blank" style="font-weight: bold;">
+                      Link to GitHub
+                  </a>
+              </div>
+            </div>
+          {% endfor %}
+        </div>
+      </div>
+    </div>
+
+    <!-- Contact Section -->
+    <div class="contact" id="contact">
+      <img src="{{ contact_image_url }}" alt="{{ contact_image_alt }}">
+
+      <div class="contactForm">
+        <h2>Contact Me</h2>
+
+        <form action="#">
+          <label for="name">Name:</label>
+          <input
+            type="text"
+            id="name"
+            name="name"
+            placeholder="Ex: John Doe"
+            required>
+
+          <label for="email">Email:</label>
+          <input
+            type="text"
+            id="email"
+            name="email"
+            placeholder="Ex: johndoe@email.com"
+            required>
+
+          <label for="message">Message:</label>
+          <textarea
+            id="message"
+            name="message"
+            rows="4"
+            placeholder="Ex: I would like to contact you..."
+            required></textarea>
+
+          <input type="submit" value="Submit">
+        </form>
+      </div>
+    </div>
+
+    <!-- Footer -->
+    <div class="footer">
+      <p>Made by {{ author_name }}</p>
+    </div>
+
+    <!-- Import JavaScript file -->
+    <script src="script.js"></script>
+  </body>
+</html>
