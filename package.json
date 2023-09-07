@@ -1,0 +1,25 @@
+{
+  "name": "web-developer-intern",
+  "version": "1.0.0",
+  "description": "<img \r   src=\"https://media.licdn.com/dms/image/C4E0BAQHd1pdz5lJgpg/company-logo_200_200/0/1652967161896?e=2147483647&v=beta&t=ssd-f4Fdjc0yZoGlnZ-hkj3U0SolMC9UJGr7wx1Y83A\" \r   alt=\"logo\" \r   style=\"width:100px;\"\r />",
+  "main": "script.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ViniciusRCSilva/Algofy-Web-Developer-Intern.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ViniciusRCSilva/Algofy-Web-Developer-Intern/issues"
+  },
+  "homepage": "https://github.com/ViniciusRCSilva/Algofy-Web-Developer-Intern#readme",
+  "dependencies": {
+    "express": "^4.18.2",
+    "fs": "^0.0.1-security",
+    "liquidjs": "^10.9.2"
+  }
+}
