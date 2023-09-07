@@ -17,6 +17,8 @@ To develop this application, the following tech's were used:
 - <img align="center" alt="HTML" height="30" width="40" src="https://raw.githubusercontent.com/devicons/devicon/master/icons/html5/html5-original.svg"> HTML5
 - <img align="center" alt="CSS" height="30" width="40" src="https://raw.githubusercontent.com/devicons/devicon/master/icons/css3/css3-original.svg"> CSS3 
 - <img align="center" alt="JS" height="30" width="40" src="https://raw.githubusercontent.com/devicons/devicon/master/icons/javascript/javascript-plain.svg"> JAVASCRIPT
+- <img align="center" alt="JS" height="30" width="40" src="https://raw.githubusercontent.com/devicons/devicon/master/icons/nodejs/nodejs-plain.svg"> NODEJS
+- <img align="center" alt="LIQUID" height="40" width="40" src="https://sissel.gallerycdn.vsassets.io/extensions/sissel/shopify-liquid/3.2.2/1670939500341/Microsoft.VisualStudio.Services.Icons.Default"> LIQUID
 
 ## :thinking: How to use?
 
