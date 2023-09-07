@@ -13,18 +13,17 @@
     <link rel="stylesheet" href="style/footer.css"> 
     
     <!-- Import Monteserrat from Google Fonts -->
-    <!-- Imported with weights 400 and 500 --> <link rel="preconnect" href="https://fonts.googleapis.com"> <link
-      rel="preconnect"
-      href="https://fonts.gstatic.com"
-      crossorigin>
+    <!-- Imported with weights 400 and 500 --> 
+    <link rel="preconnect" href="https://fonts.googleapis.com"> 
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500&display=swap" rel="stylesheet">
 
-    <title>{{ page_title }}</title>
+    <title>{{ data.personalInfo.page_title }}</title>
   </head>
   <body>
     <!-- Topbar -->
     <div class="topbar" id="topbar">
-      <p class="logo">{{ site_name }}</p>
+      <p class="logo">{{ data.personalInfo.site_name }}</p>
 
       <div class="menu">
         <a href="#hero">Home</a>
@@ -36,16 +35,16 @@
     <!-- Hero Section -->
     <div class="hero" id="hero">
       <div class="bgText">
-        <h1>{{ hero_title }}</h1>
-        <p>{{ hero_description }}</p>
+        <h1>{{ data.personalInfo.hero_title }}</h1>
+        <p>{{ data.personalInfo.hero_description }}</p>
       </div>
     </div>
 
     <!-- About Section -->
     <div class="about" id="about">
       <img
-        src="{{ image_url }}"
-        alt="{{ image_alt }}"
+        src="{{ data.personalInfo.image_url }}"
+        alt="{{ data.personalInfo.image_alt }}"
         class="myImage">
 
       <button class="aboutBtn" id="aboutBtn">
@@ -55,13 +54,13 @@
 
       <div class="content none" id="content">
         <p>
-          {{ about_text }}
+          {{ data.personalInfo.about_text | downcase | capitalize }}
         </p>
 
         <h3>Skills</h3>
 
         <div class="skills">
-          {% for skill in jsonDatabase.skills %}
+          {% for skill in data.skills %}
             <img
               class="techIcon"
               alt="{{ skill.alt }}"
@@ -75,7 +74,7 @@
 
         <!-- A Div Tag to show projects -->
         <div class="projects" id="projects">
-          {% for project in jsonDatabase.projects %}
+          {% for project in data.projects %}
             <div class="project">
               <h3>{{ project.name }}</h3>
               <img src="{{ project.image }}" alt="{{ project.name }}" class="projectImage" />
@@ -94,7 +93,7 @@
 
     <!-- Contact Section -->
     <div class="contact" id="contact">
-      <img src="{{ contact_image_url }}" alt="{{ contact_image_alt }}">
+      <img src="{{ data.personalInfo.contact_image_url }}" alt="{{ data.personalInfo.contact_image_alt }}">
 
       <div class="contactForm">
         <h2>Contact Me</h2>
@@ -131,7 +130,7 @@
 
     <!-- Footer -->
     <div class="footer">
-      <p>Made by {{ author_name }}</p>
+      <p>Made by {{ data.personalInfo.author_name }}</p>
     </div>
 
     <!-- Import JavaScript file -->
